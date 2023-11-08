@@ -1,15 +1,17 @@
 {
-  "name": "nodejs-webapp",
-  "version": "1.0.0",
+  "name": "server.js",
+  "version": "1.0.1",
   "description": "A simple node js webapp",
   "main": "server.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "author": "Olatunde tundeficky@gmail.com",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "mocha": "^10.2.0"
-  }
+  },
+  "devDependencies": {}
 }
