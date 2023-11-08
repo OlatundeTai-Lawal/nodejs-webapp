@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
         - name: nodesy-container
-          image: mamaacr.azurecr.io/nodejs-webapp:v1
+          image: tundeficky/nodejs-app:v1.0.0
+          #          image: mamaacr.azurecr.io/nodejs-webapp:v1
           ports:
             - containerPort: 3000
 
@@ -31,6 +32,6 @@ spec:
     app: nodesy-app
   ports:
     - protocol: TCP
-      port: 3000
+      port: 80
       targetPort: 3000
   type: LoadBalancer
